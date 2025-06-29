@@ -1,0 +1,7 @@
+# ZohoAnalytics API認証情報
+# 以下の値を実際の認証情報に置き換えてください
+# このファイルを .env にリネームして使用してください
+
+ZOHO_CLIENT_ID=your_client_id_here
+ZOHO_CLIENT_SECRET=your_client_secret_here
+ZOHO_REFRESH_TOKEN=your_refresh_token_here 
