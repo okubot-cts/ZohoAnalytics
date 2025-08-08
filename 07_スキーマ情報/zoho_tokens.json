@@ -1,0 +1,8 @@
+{
+  "access_token": "1000.2df3f6356f03a3db1e531883cb836ae9.066760ef5a61307438204ea7b8fc1619",
+  "refresh_token": "1000.486e1e72a12e31310c1428d35112914e.af4d5c117f6008106f6b118e5fb61747",
+  "scope": "ZohoAnalytics.metadata.read ZohoAnalytics.data.read",
+  "api_domain": "https://www.zohoapis.com",
+  "token_type": "Bearer",
+  "expires_in": 3600
+}

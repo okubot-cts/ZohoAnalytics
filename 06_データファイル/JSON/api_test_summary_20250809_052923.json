@@ -1,0 +1,11 @@
+{
+  "test_timestamp": "20250809_052923",
+  "access_token": "1000.686e5...",
+  "workspace_id": "2527115000001040002",
+  "test_results": {
+    "workspace_access": true,
+    "table_access": true,
+    "simple_query": false,
+    "versant_query": false
+  }
+}

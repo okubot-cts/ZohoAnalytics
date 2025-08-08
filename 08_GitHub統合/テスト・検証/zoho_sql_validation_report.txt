@@ -1,0 +1,27 @@
+=== Zoho Analytics SQL実行レポート ===
+
+実行日時: 2025-06-29 12:47:51
+ワークスペースID: 2527115000001040002
+組織ID: 772044231
+
+成功率: 0/6 (0.0%)
+
+詳細結果:
+- 商談基本クエリ: ✗ 失敗
+  エラー: HTTP 400: {"status":"failure","summary":"LESS_THAN_MIN_OCCURANCE","data":{"errorCode":8504,"errorMessage":"The parameter CONFIG is not proper(Has not been sent or is less than required count)"}}
+- 連絡先基本クエリ: ✗ 失敗
+  エラー: HTTP 400: {"status":"failure","summary":"LESS_THAN_MIN_OCCURANCE","data":{"errorCode":8504,"errorMessage":"The parameter CONFIG is not proper(Has not been sent or is less than required count)"}}
+- 取引先基本クエリ: ✗ 失敗
+  エラー: HTTP 400: {"status":"failure","summary":"LESS_THAN_MIN_OCCURANCE","data":{"errorCode":8504,"errorMessage":"The parameter CONFIG is not proper(Has not been sent or is less than required count)"}}
+- 商談件数確認: ✗ 失敗
+  エラー: HTTP 400: {"status":"failure","summary":"LESS_THAN_MIN_OCCURANCE","data":{"errorCode":8504,"errorMessage":"The parameter CONFIG is not proper(Has not been sent or is less than required count)"}}
+- 商談ステージ別集計: ✗ 失敗
+  エラー: HTTP 400: {"status":"failure","summary":"LESS_THAN_MIN_OCCURANCE","data":{"errorCode":8504,"errorMessage":"The parameter CONFIG is not proper(Has not been sent or is less than required count)"}}
+- 月次商談作成数: ✗ 失敗
+  エラー: HTTP 400: {"status":"failure","summary":"LESS_THAN_MIN_OCCURANCE","data":{"errorCode":8504,"errorMessage":"The parameter CONFIG is not proper(Has not been sent or is less than required count)"}}
+
+=== 修正が必要な可能性 ===
+- テーブル名の確認 (CRM APIとAnalyticsで異なる場合)
+- フィールド名の確認 (大文字小文字、アンダースコア等)
+- データ型キャストの調整
+- Analytics固有の関数使用

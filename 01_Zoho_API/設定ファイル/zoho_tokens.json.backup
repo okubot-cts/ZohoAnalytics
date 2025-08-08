@@ -1,0 +1,11 @@
+{
+  "access_token": "1000.08656ab08d11f5db6774a1505e560e81.b077bf4ea6b17dbda9b6dface51e4aa3",
+  "refresh_token": "1000.8177ba2f0705562d6bb22b12175cf327.7d32cf158319da563ce34b11099ab13b",
+  "api_domain": "https://www.zohoapis.com",
+  "token_type": "Bearer",
+  "expires_in": 3600,
+  "expires_at": "2025-07-26T18:05:50.251709",
+  "created_at": "2025-07-26T00:16:51.000000",
+  "scope": "ZohoAnalytics.fullaccess.all",
+  "refreshed_at": "2025-07-26T17:05:50.251736"
+}

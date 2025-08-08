@@ -1,0 +1,8 @@
+{
+  "access_token": "1000.686e52c181492f8eb010a6b9bcb12f09.c0b3d01799dacce09dacc8ea66938698",
+  "scope": "ZohoAnalytics.fullaccess.all",
+  "api_domain": "https://www.zohoapis.com",
+  "token_type": "Bearer",
+  "expires_in": 3600,
+  "refreshed_at": "2025-08-09T05:26:42.414545"
+}

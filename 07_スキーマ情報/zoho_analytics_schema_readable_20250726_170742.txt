@@ -1,0 +1,1556 @@
+ZohoAnalytics ワークスペース スキーマ情報
+==================================================
+
+ワークスペース名: Zoho CRMの分析
+ワークスペースID: 2527115000001040002
+取得日時: 2025-07-26 17:07:42
+テーブル数: 262
+
+【テーブル】abceed Notes
+  ID: 2527115000005589975
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed 予測スコア
+  ID: 2527115000013209294
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed 学習問題数
+  ID: 2527115000013209795
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed 学習時間
+  ID: 2527115000013209002
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed 語彙レベル
+  ID: 2527115000013209998
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed（スコア）
+  ID: 2527115000005589951
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed（スコア） Notes
+  ID: 2527115000005589963
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed（学習問題数）
+  ID: 2527115000005662297
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed（学習問題数） Notes
+  ID: 2527115000005662309
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】abceed（学習時間）
+  ID: 2527115000005589939
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】ATTENDANCEREPORT
+  ID: 2527115000004929002
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Berlitz
+  ID: 2527115000012042701
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Berlitz Notes
+  ID: 2527115000012042689
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Bizmates
+  ID: 2527115000003636570
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Bizmates Notes
+  ID: 2527115000003636606
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Cambly
+  ID: 2527115000010003159
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Cambly Notes
+  ID: 2527115000010003171
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】class
+  ID: 2527115000014522075
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】CLASSKAIKOBASHOMASTER
+  ID: 2527115000004811029
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】class_coaches
+  ID: 2527115000014522203
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】class_users
+  ID: 2527115000014522281
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】coach
+  ID: 2527115000014425002
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Collectors (Zoho Survey)
+  ID: 2527115000006834217
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Columns (Zoho Survey)
+  ID: 2527115000006834289
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】comments
+  ID: 2527115000006696002
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】comments_content_multiline
+  ID: 2527115000009022767
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Cooori
+  ID: 2527115000011296001
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Cooori Notes
+  ID: 2527115000011296049
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Departments (Zoho Survey)
+  ID: 2527115000006834002
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】DiaTalk
+  ID: 2527115000011910037
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】DiaTalk Notes
+  ID: 2527115000011910001
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】DMM
+  ID: 2527115000005580082
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】DMM Notes
+  ID: 2527115000005580070
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Dummy02
+  ID: 2527115000004630579
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】ELSA
+  ID: 2527115000011976184
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】ELSA Notes
+  ID: 2527115000011976196
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】EnglishCentral
+  ID: 2527115000006252174
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】EnglishCentral Notes
+  ID: 2527115000006252186
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Fields (Zoho Survey)
+  ID: 2527115000006834149
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Fruitful English
+  ID: 2527115000011888013
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Fruitful English Notes
+  ID: 2527115000011888001
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Gemini Tasks
+  ID: 2527115000001082003
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Gemini企業名研修名チーム名
+  ID: 2527115000004317002
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Gemini教材
+  ID: 2527115000001257096
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Gemini教材_PracticeNote付
+  ID: 2527115000001370002
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Gemini生徒ID
+  ID: 2527115000001151072
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】GSET
+  ID: 2527115000013353313
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】GSET Notes
+  ID: 2527115000013353301
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】GTEC
+  ID: 2527115000003395055
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】GTEC Notes
+  ID: 2527115000003395067
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】IDIY
+  ID: 2527115000011910013
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】IDIY Notes
+  ID: 2527115000011910025
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】JUCHU
+  ID: 2527115000004811496
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】JUCHUCLASS
+  ID: 2527115000004825853
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】JUCHUCLASSSTUDENT
+  ID: 2527115000004932383
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】JUCHUMODEL
+  ID: 2527115000004828800
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】KOTSUHI
+  ID: 2527115000004931864
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】MODELMASTER
+  ID: 2527115000004829407
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】MODELMONTHLYSCHEDULE
+  ID: 2527115000004932141
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】MODELSKILLCHECK
+  ID: 2527115000004930887
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】MONTHLYREPORT
+  ID: 2527115000004930710
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】NATIONALMASTER
+  ID: 2527115000004930603
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】NativeCamp
+  ID: 2527115000005580058
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】NativeCamp Notes
+  ID: 2527115000005580094
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】NOVA
+  ID: 2527115000013129694
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】NOVA Notes
+  ID: 2527115000013129706
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Options (Zoho Survey)
+  ID: 2527115000006834095
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】organization
+  ID: 2527115000014522003
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】organizations
+  ID: 2527115000004687665
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Pages (Zoho Survey)
+  ID: 2527115000006834071
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】PATAPURA
+  ID: 2527115000011296061
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】PATAPURA Notes
+  ID: 2527115000011296073
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Polyglots
+  ID: 2527115000011897269
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Polyglots Notes
+  ID: 2527115000011897281
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】program
+  ID: 2527115000014522359
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】programs
+  ID: 2527115000004687732
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】PROGRIT
+  ID: 2527115000011927509
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】PROGRIT Notes
+  ID: 2527115000011927521
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】QQ English
+  ID: 2527115000011296013
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】QQ English Notes
+  ID: 2527115000011296037
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Questions (Zoho Survey)
+  ID: 2527115000006834177
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Reports (Zoho Books)
+  ID: 2527115000005641158
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Respondents (Zoho Survey)
+  ID: 2527115000006834253
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Response Variables (Zoho Survey)
+  ID: 2527115000006834393
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Responses (Zoho Survey)
+  ID: 2527115000006834331
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Rows (Zoho Survey)
+  ID: 2527115000006834309
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Sales Receipt (Zoho Books)
+  ID: 2527115000005642834
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Sales Receipt Items (Zoho Books)
+  ID: 2527115000005588812
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】SCREEN事前申請
+  ID: 2527115000001042958
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】SCREEN支給申請
+  ID: 2527115000001042986
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Speak
+  ID: 2527115000011761910
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Speak Notes
+  ID: 2527115000011761898
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】STATION
+  ID: 2527115000004930436
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】students
+  ID: 2527115000004687598
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】SUPIFUL
+  ID: 2527115000010614090
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】SUPIFUL Notes
+  ID: 2527115000010614066
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Surveys (Zoho Survey)
+  ID: 2527115000006834031
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】task
+  ID: 2527115000014385012
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】tasks
+  ID: 2527115000004687381
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】tasks_delete_and_add
+  ID: 2527115000007685012
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】task_comment
+  ID: 2527115000014385350
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】task_completed_log_new
+  ID: 2527115000009814002
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】teaching_material
+  ID: 2527115000014522517
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】teaching_materials
+  ID: 2527115000004687996
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】teaching_material_category
+  ID: 2527115000015552448
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】teaching_material_section
+  ID: 2527115000014522645
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】teaching_material_sections
+  ID: 2527115000004687889
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】teams
+  ID: 2527115000004687217
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】team_teachers
+  ID: 2527115000004687294
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】TOEICIP
+  ID: 2527115000002950013
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】TOEICIP Notes
+  ID: 2527115000002950001
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】TOKUISAKIMASTER
+  ID: 2527115000004929159
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】user
+  ID: 2527115000014385488
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】users
+  ID: 2527115000004687060
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Variables (Zoho Survey)
+  ID: 2527115000006834119
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】Versant
+  ID: 2527115000002562013
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Versant Notes
+  ID: 2527115000002562001
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Willies English
+  ID: 2527115000012005298
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】Willies English Notes
+  ID: 2527115000012005274
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】アプリ/サービス
+  ID: 2527115000008017014
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】アプリ/サービス Notes
+  ID: 2527115000008017026
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】アプリID
+  ID: 2527115000009934225
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】アプリID Notes
+  ID: 2527115000009934237
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】オファー
+  ID: 2527115000008241001
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】オプション (Zoho Books)
+  ID: 2527115000005641054
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】カート (Zoho Books)
+  ID: 2527115000005642646
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】カートの商品 (Zoho Books)
+  ID: 2527115000005588824
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】カード (Zoho Books)
+  ID: 2527115000005642562
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】キャンアド
+  ID: 2527115000001042944
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】キャンセル日程
+  ID: 2527115000001042972
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】キャンペーン
+  ID: 2527115000001040124
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】キャンペーン対象者（見込み客）
+  ID: 2527115000001040125
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】キャンペーン対象者（連絡先）
+  ID: 2527115000001040128
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】クラス
+  ID: 2527115000003848243
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】クラス Notes
+  ID: 2527115000003848303
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】クレジットノートの商品 (Zoho Books)
+  ID: 2527115000005640753
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】サブスクリプションの商品 (Zoho Books)
+  ID: 2527115000005640970
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】サブスクリプションの明細 (Zoho Books)
+  ID: 2527115000005641104
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】サブフォーム 3
+  ID: 2527115000001043042
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】サプライヤ
+  ID: 2527115000001042902
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】システムのメール (Zoho Books)
+  ID: 2527115000005640829
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】シャドテン
+  ID: 2527115000010614102
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】シャドテン Notes
+  ID: 2527115000010614078
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】スタサプ
+  ID: 2527115000003636594
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】スタサプ Notes
+  ID: 2527115000003636582
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】ステージの履歴
+  ID: 2527115000001040091
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】スピークバディ
+  ID: 2527115000012005310
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】スピークバディ Notes
+  ID: 2527115000012005286
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】タスク
+  ID: 2527115000001040087
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】タスク Notes
+  ID: 2527115000012180279
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】トラフィックのセッション (Zoho Books)
+  ID: 2527115000005642708
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】トラフィックのユーザー (Zoho Books)
+  ID: 2527115000005641444
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】ブランド (Zoho Books)
+  ID: 2527115000005640580
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】プラン (Zoho Books)
+  ID: 2527115000005640994
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】プランのオプションの関連付け (Zoho Books)
+  ID: 2527115000005643008
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】プロジェクト (Zoho Books)
+  ID: 2527115000005641854
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】ユーザー
+  ID: 2527115000001040017
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】ユーザー (Zoho Books)
+  ID: 2527115000005588286
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】ユーザーの規定 (Zoho Books)
+  ID: 2527115000005642602
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】レアジョブ
+  ID: 2527115000013065001
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】レアジョブ Notes
+  ID: 2527115000013065013
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】レッスンCS
+  ID: 2527115000003848267
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】レポートのタグ (Zoho Books)
+  ID: 2527115000005642274
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】仕入先
+  ID: 2527115000001040015
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】仕入先 (Zoho Books)
+  ID: 2527115000005640216
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】仕入先のクレジット (Zoho Books)
+  ID: 2527115000005641538
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】仕入先のクレジットの請求 (Zoho Books)
+  ID: 2527115000005641614
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】仕入先のクレジットの返金 (Zoho Books)
+  ID: 2527115000005641640
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】仕入先の住所 (Zoho Books)
+  ID: 2527115000005641484
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】仕入先の支払いの返金 (Zoho Books)
+  ID: 2527115000006674248
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】仕入先の連絡先 (Zoho Books)
+  ID: 2527115000005643124
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】仕入先への支払い (Zoho Books)
+  ID: 2527115000005642780
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】仮払金 (Zoho Books)
+  ID: 2527115000005643032
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】使用教材
+  ID: 2527115000003848231
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】修了要件
+  ID: 2527115000005177039
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】修了要件 Notes
+  ID: 2527115000005177015
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】出張 (Zoho Books)
+  ID: 2527115000005588588
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】出張の旅程 (Zoho Books)
+  ID: 2527115000005588746
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】出張オプション (Zoho Books)
+  ID: 2527115000005640864
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】出張オプションのグループ (Zoho Books)
+  ID: 2527115000005588722
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】出張オプションの詳細 (Zoho Books)
+  ID: 2527115000005642486
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】出欠情報
+  ID: 2527115000003848255
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】出荷依頼表
+  ID: 2527115000001328077
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】出荷依頼表 Notes
+  ID: 2527115000001328063
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】出荷注文 (Zoho Books)
+  ID: 2527115000005641676
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】勘定 (Zoho Books)
+  ID: 2527115000005588183
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】取引先
+  ID: 2527115000001040020
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】受取請求書 (Zoho Books)
+  ID: 2527115000005642102
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】受注書 (Zoho Books)
+  ID: 2527115000005588462
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】受注書の商品 (Zoho Books)
+  ID: 2527115000005642372
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】受注書・請求書 (Zoho Books)
+  ID: 2527115000005643268
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】受講生
+  ID: 2527115000004681271
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】受講生 Notes
+  ID: 2527115000004681283
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】受講生名
+  ID: 2527115000003848219
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】商品
+  ID: 2527115000001040016
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】商品 (Zoho Books)
+  ID: 2527115000005640661
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】商品グループ (Zoho Books)
+  ID: 2527115000005640605
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】商品リスト
+  ID: 2527115000006871760
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】商品内訳
+  ID: 2527115000001043000
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】商談
+  ID: 2527115000001040021
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】商談 Notes
+  ID: 2527115000001978001
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】営業担当者 (Zoho Books)
+  ID: 2527115000005588348
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】在庫調整の商品 (Zoho Books)
+  ID: 2527115000005642766
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】売上戻り高 (Zoho Books)
+  ID: 2527115000005642210
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】売上戻り高の商品 (Zoho Books)
+  ID: 2527115000005642238
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】天天中文
+  ID: 2527115000011296025
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】天天中文 Notes
+  ID: 2527115000011296085
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】学習ツール
+  ID: 2527115000001043056
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】学習実績
+  ID: 2527115000005177027
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】学習実績 Notes
+  ID: 2527115000005177003
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】学習実績（臨時）
+  ID: 2527115000001043014
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】手配
+  ID: 2527115000001042916
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】手配 Notes
+  ID: 2527115000001321001
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】支払いの払い戻し (Zoho Books)
+  ID: 2527115000005641374
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】支払い済み (Zoho Books)
+  ID: 2527115000005642808
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】教材
+  ID: 2527115000004060839
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】教材 Notes
+  ID: 2527115000004060827
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】教材リスト
+  ID: 2527115000001042930
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】料金体系 (Zoho Books)
+  ID: 2527115000005642676
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】楽天GHR Beat TOEIC 2024出席
+  ID: 2527115000013357199
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】楽天GHR面談
+  ID: 2527115000013357990
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】無題-3
+  ID: 2527115000013213913
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】産経オンライン
+  ID: 2527115000015450001
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】産経オンライン Notes
+  ID: 2527115000015450013
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】申請の払い戻し (Zoho Books)
+  ID: 2527115000005642966
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】申請の種類 (Zoho Books)
+  ID: 2527115000005588568
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】発注書の商品 (Zoho Books)
+  ID: 2527115000005642292
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】発生主義の取引 (Zoho Books)
+  ID: 2527115000005640284
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】税金 (Zoho Books)
+  ID: 2527115000005640184
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】精算 (Zoho Books)
+  ID: 2527115000005642878
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】経費 (Zoho Books)
+  ID: 2527115000005641262
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】経費の税金 (Zoho Books)
+  ID: 2527115000005642042
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】経費の請求 (Zoho Books)
+  ID: 2527115000005641720
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】経費の請求の項目 (Zoho Books)
+  ID: 2527115000005641982
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】繰り返し経費 (Zoho Books)
+  ID: 2527115000005642726
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】見積書 (Zoho Books)
+  ID: 2527115000005588364
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】見積書の商品 (Zoho Books)
+  ID: 2527115000005641900
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】見込み客
+  ID: 2527115000001040018
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】規定 (Zoho Books)
+  ID: 2527115000005588247
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】詳細
+  ID: 2527115000003848291
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】詳細 Notes
+  ID: 2527115000003848279
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】課金 (Zoho Books)
+  ID: 2527115000005588845
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】請求書 (Zoho Books)
+  ID: 2527115000005588936
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】請求書の商品 (Zoho Books)
+  ID: 2527115000005643144
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】請求書の支払い (Zoho Books)
+  ID: 2527115000005640154
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】請求済みの見積書 (Zoho Books)
+  ID: 2527115000005641472
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】講師レポート/評価コメント
+  ID: 2527115000007213001
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】講師レポート/評価コメント Notes
+  ID: 2527115000007213013
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】講師情報
+  ID: 2527115000001043028
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】貸方票 (Zoho Books)
+  ID: 2527115000005640490
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】貸方票/請求書 (Zoho Books)
+  ID: 2527115000005641414
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】購入受領 (Zoho Books)
+  ID: 2527115000005642846
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】赴任前アンケート
+  ID: 2527115000006718115
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】赴任前アンケート Notes
+  ID: 2527115000006718127
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】超速中国語
+  ID: 2527115000014904050
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】超速中国語 Notes
+  ID: 2527115000014904038
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】連絡先
+  ID: 2527115000001040019
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】部署 (Zoho Books)
+  ID: 2527115000005642072
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】顧客 (Zoho Books)
+  ID: 2527115000005588050
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+
+【テーブル】顧客の住所 (Zoho Books)
+  ID: 2527115000005588129
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】顧客の支払い (Zoho Books)
+  ID: 2527115000005640126
+  タイプ: Table
+  ❌ エラー: API Error: 400 - {"status":"failure","summary":"EXCEEDING_USR_PLN_API_FREQ_COUNT","data":{"errorCode":6045,"errorMessage":"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。"}}
+
+【テーブル】顧客の連絡先 (Zoho Books)
+  ID: 2527115000005640841
+  タイプ: Table
+  行数: 0
+  列数: 0
+  カラム一覧:
+

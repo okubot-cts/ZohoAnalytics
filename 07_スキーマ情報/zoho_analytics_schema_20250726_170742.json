@@ -1,0 +1,2181 @@
+{
+  "workspace_info": {
+    "workspaceId": "2527115000001040002",
+    "workspaceName": "Zoho CRMの分析",
+    "workspaceDesc": "Zoho CRMのワークスペースには、収集したデータの分析に役立つレポートやダッシュボードが用意されています。",
+    "orgId": "772044231",
+    "createdTime": "1678783707742",
+    "createdBy": "admin@cts-n.net",
+    "isDefault": false
+  },
+  "generated_at": "2025-07-26T17:05:52.475972",
+  "tables": [
+    {
+      "table_name": "abceed Notes",
+      "table_id": "2527115000005589975",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713484132749",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed 予測スコア",
+      "table_id": "2527115000013209294",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1743683236182",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed 学習問題数",
+      "table_id": "2527115000013209795",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1743683426312",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed 学習時間",
+      "table_id": "2527115000013209002",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1743683138341",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed 語彙レベル",
+      "table_id": "2527115000013209998",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1743683600610",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed（スコア）",
+      "table_id": "2527115000005589951",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713484130621",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed（スコア） Notes",
+      "table_id": "2527115000005589963",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713484131664",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed（学習問題数）",
+      "table_id": "2527115000005662297",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713878968214",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed（学習問題数） Notes",
+      "table_id": "2527115000005662309",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713878969878",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "abceed（学習時間）",
+      "table_id": "2527115000005589939",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713484129525",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "ATTENDANCEREPORT",
+      "table_id": "2527115000004929002",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1710212812892",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Berlitz",
+      "table_id": "2527115000012042701",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739925941007",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Berlitz Notes",
+      "table_id": "2527115000012042689",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739925920333",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Bizmates",
+      "table_id": "2527115000003636570",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1703502321523",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Bizmates Notes",
+      "table_id": "2527115000003636606",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1703502323573",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Cambly",
+      "table_id": "2527115000010003159",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1732860621989",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Cambly Notes",
+      "table_id": "2527115000010003171",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1732860642924",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "class",
+      "table_id": "2527115000014522075",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1747727518366",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "CLASSKAIKOBASHOMASTER",
+      "table_id": "2527115000004811029",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1709799520543",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "class_coaches",
+      "table_id": "2527115000014522203",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1747727519926",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "class_users",
+      "table_id": "2527115000014522281",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1747727521646",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "coach",
+      "table_id": "2527115000014425002",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1747384457827",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Collectors (Zoho Survey)",
+      "table_id": "2527115000006834217",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1718677607282",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Columns (Zoho Survey)",
+      "table_id": "2527115000006834289",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1718677611030",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "comments",
+      "table_id": "2527115000006696002",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1718065615247",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "comments_content_multiline",
+      "table_id": "2527115000009022767",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1728374148305",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Cooori",
+      "table_id": "2527115000011296001",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1737601402525",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Cooori Notes",
+      "table_id": "2527115000011296049",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1737601481031",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Departments (Zoho Survey)",
+      "table_id": "2527115000006834002",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1718677594772",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "DiaTalk",
+      "table_id": "2527115000011910037",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739417781729",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "DiaTalk Notes",
+      "table_id": "2527115000011910001",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739417722099",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "DMM",
+      "table_id": "2527115000005580082",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713318465680",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "DMM Notes",
+      "table_id": "2527115000005580070",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713318464383",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Dummy02",
+      "table_id": "2527115000004630579",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1708928150794",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "ELSA",
+      "table_id": "2527115000011976184",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739752279473",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "ELSA Notes",
+      "table_id": "2527115000011976196",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739752298527",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "EnglishCentral",
+      "table_id": "2527115000006252174",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1716271437508",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "EnglishCentral Notes",
+      "table_id": "2527115000006252186",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1716271439285",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Fields (Zoho Survey)",
+      "table_id": "2527115000006834149",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1718677602897",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Fruitful English",
+      "table_id": "2527115000011888013",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739355166050",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Fruitful English Notes",
+      "table_id": "2527115000011888001",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739355140704",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Gemini Tasks",
+      "table_id": "2527115000001082003",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1679984578533",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Gemini企業名研修名チーム名",
+      "table_id": "2527115000004317002",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1707188162318",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Gemini教材",
+      "table_id": "2527115000001257096",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1682917548070",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Gemini教材_PracticeNote付",
+      "table_id": "2527115000001370002",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1684457414941",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Gemini生徒ID",
+      "table_id": "2527115000001151072",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1681267318297",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "GSET",
+      "table_id": "2527115000013353313",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1744159231963",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "GSET Notes",
+      "table_id": "2527115000013353301",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1744159224098",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "GTEC",
+      "table_id": "2527115000003395055",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1701672275130",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "GTEC Notes",
+      "table_id": "2527115000003395067",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1701672275791",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "IDIY",
+      "table_id": "2527115000011910013",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739417744580",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "IDIY Notes",
+      "table_id": "2527115000011910025",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1739417762677",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "JUCHU",
+      "table_id": "2527115000004811496",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1709799523007",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "JUCHUCLASS",
+      "table_id": "2527115000004825853",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1709799525648",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "JUCHUCLASSSTUDENT",
+      "table_id": "2527115000004932383",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1710228637166",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "JUCHUMODEL",
+      "table_id": "2527115000004828800",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1709799528344",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "KOTSUHI",
+      "table_id": "2527115000004931864",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1710212828942",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "MODELMASTER",
+      "table_id": "2527115000004829407",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1709799530810",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "MODELMONTHLYSCHEDULE",
+      "table_id": "2527115000004932141",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1710212831459",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "MODELSKILLCHECK",
+      "table_id": "2527115000004930887",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1710212826141",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "MONTHLYREPORT",
+      "table_id": "2527115000004930710",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1710212823895",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "NATIONALMASTER",
+      "table_id": "2527115000004930603",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1710212821134",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "NativeCamp",
+      "table_id": "2527115000005580058",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713318463353",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "NativeCamp Notes",
+      "table_id": "2527115000005580094",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713318466752",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "NOVA",
+      "table_id": "2527115000013129694",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1743407709999",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "NOVA Notes",
+      "table_id": "2527115000013129706",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1743407714451",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Options (Zoho Survey)",
+      "table_id": "2527115000006834095",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "organization",
+      "table_id": "2527115000014522003",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "organizations",
+      "table_id": "2527115000004687665",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1709194670211",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Pages (Zoho Survey)",
+      "table_id": "2527115000006834071",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "PATAPURA",
+      "table_id": "2527115000011296061",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "PATAPURA Notes",
+      "table_id": "2527115000011296073",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Polyglots",
+      "table_id": "2527115000011897269",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Polyglots Notes",
+      "table_id": "2527115000011897281",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "program",
+      "table_id": "2527115000014522359",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "programs",
+      "table_id": "2527115000004687732",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "PROGRIT",
+      "table_id": "2527115000011927509",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "PROGRIT Notes",
+      "table_id": "2527115000011927521",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "QQ English",
+      "table_id": "2527115000011296013",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1737601427980",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "QQ English Notes",
+      "table_id": "2527115000011296037",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Questions (Zoho Survey)",
+      "table_id": "2527115000006834177",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Reports (Zoho Books)",
+      "table_id": "2527115000005641158",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Respondents (Zoho Survey)",
+      "table_id": "2527115000006834253",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Response Variables (Zoho Survey)",
+      "table_id": "2527115000006834393",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Responses (Zoho Survey)",
+      "table_id": "2527115000006834331",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Rows (Zoho Survey)",
+      "table_id": "2527115000006834309",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Sales Receipt (Zoho Books)",
+      "table_id": "2527115000005642834",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Sales Receipt Items (Zoho Books)",
+      "table_id": "2527115000005588812",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777757123",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "SCREEN事前申請",
+      "table_id": "2527115000001042958",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "SCREEN支給申請",
+      "table_id": "2527115000001042986",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Speak",
+      "table_id": "2527115000011761910",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Speak Notes",
+      "table_id": "2527115000011761898",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "STATION",
+      "table_id": "2527115000004930436",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "students",
+      "table_id": "2527115000004687598",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "SUPIFUL",
+      "table_id": "2527115000010614090",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "SUPIFUL Notes",
+      "table_id": "2527115000010614066",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Surveys (Zoho Survey)",
+      "table_id": "2527115000006834031",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "task",
+      "table_id": "2527115000014385012",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1747382119462",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "tasks",
+      "table_id": "2527115000004687381",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "tasks_delete_and_add",
+      "table_id": "2527115000007685012",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "task_comment",
+      "table_id": "2527115000014385350",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "task_completed_log_new",
+      "table_id": "2527115000009814002",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "teaching_material",
+      "table_id": "2527115000014522517",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "teaching_materials",
+      "table_id": "2527115000004687996",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "teaching_material_category",
+      "table_id": "2527115000015552448",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1750656352373",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "teaching_material_section",
+      "table_id": "2527115000014522645",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "teaching_material_sections",
+      "table_id": "2527115000004687889",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "teams",
+      "table_id": "2527115000004687217",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "team_teachers",
+      "table_id": "2527115000004687294",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "TOEICIP",
+      "table_id": "2527115000002950013",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "TOEICIP Notes",
+      "table_id": "2527115000002950001",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "TOKUISAKIMASTER",
+      "table_id": "2527115000004929159",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "user",
+      "table_id": "2527115000014385488",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "users",
+      "table_id": "2527115000004687060",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Variables (Zoho Survey)",
+      "table_id": "2527115000006834119",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1718677601373",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "Versant",
+      "table_id": "2527115000002562013",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Versant Notes",
+      "table_id": "2527115000002562001",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Willies English",
+      "table_id": "2527115000012005298",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "Willies English Notes",
+      "table_id": "2527115000012005274",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "アプリ/サービス",
+      "table_id": "2527115000008017014",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "アプリ/サービス Notes",
+      "table_id": "2527115000008017026",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "アプリID",
+      "table_id": "2527115000009934225",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "アプリID Notes",
+      "table_id": "2527115000009934237",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "オファー",
+      "table_id": "2527115000008241001",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "オプション (Zoho Books)",
+      "table_id": "2527115000005641054",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777856943",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "カート (Zoho Books)",
+      "table_id": "2527115000005642646",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "カートの商品 (Zoho Books)",
+      "table_id": "2527115000005588824",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "カード (Zoho Books)",
+      "table_id": "2527115000005642562",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "キャンアド",
+      "table_id": "2527115000001042944",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "キャンセル日程",
+      "table_id": "2527115000001042972",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "キャンペーン",
+      "table_id": "2527115000001040124",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "キャンペーン対象者（見込み客）",
+      "table_id": "2527115000001040125",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "キャンペーン対象者（連絡先）",
+      "table_id": "2527115000001040128",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "クラス",
+      "table_id": "2527115000003848243",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "クラス Notes",
+      "table_id": "2527115000003848303",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "クレジットノートの商品 (Zoho Books)",
+      "table_id": "2527115000005640753",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777851137",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "サブスクリプションの商品 (Zoho Books)",
+      "table_id": "2527115000005640970",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "サブスクリプションの明細 (Zoho Books)",
+      "table_id": "2527115000005641104",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "サブフォーム 3",
+      "table_id": "2527115000001043042",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "サプライヤ",
+      "table_id": "2527115000001042902",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "システムのメール (Zoho Books)",
+      "table_id": "2527115000005640829",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "シャドテン",
+      "table_id": "2527115000010614102",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "シャドテン Notes",
+      "table_id": "2527115000010614078",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "スタサプ",
+      "table_id": "2527115000003636594",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1703502322879",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "スタサプ Notes",
+      "table_id": "2527115000003636582",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "ステージの履歴",
+      "table_id": "2527115000001040091",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "スピークバディ",
+      "table_id": "2527115000012005310",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "スピークバディ Notes",
+      "table_id": "2527115000012005286",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "タスク",
+      "table_id": "2527115000001040087",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "タスク Notes",
+      "table_id": "2527115000012180279",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "トラフィックのセッション (Zoho Books)",
+      "table_id": "2527115000005642708",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "トラフィックのユーザー (Zoho Books)",
+      "table_id": "2527115000005641444",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "ブランド (Zoho Books)",
+      "table_id": "2527115000005640580",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "プラン (Zoho Books)",
+      "table_id": "2527115000005640994",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777855978",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "プランのオプションの関連付け (Zoho Books)",
+      "table_id": "2527115000005643008",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "プロジェクト (Zoho Books)",
+      "table_id": "2527115000005641854",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "ユーザー",
+      "table_id": "2527115000001040017",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "ユーザー (Zoho Books)",
+      "table_id": "2527115000005588286",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "ユーザーの規定 (Zoho Books)",
+      "table_id": "2527115000005642602",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "レアジョブ",
+      "table_id": "2527115000013065001",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "レアジョブ Notes",
+      "table_id": "2527115000013065013",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "レッスンCS",
+      "table_id": "2527115000003848267",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1705037591689",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "レポートのタグ (Zoho Books)",
+      "table_id": "2527115000005642274",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "仕入先",
+      "table_id": "2527115000001040015",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1678783707743",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "仕入先 (Zoho Books)",
+      "table_id": "2527115000005640216",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "仕入先のクレジット (Zoho Books)",
+      "table_id": "2527115000005641538",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "仕入先のクレジットの請求 (Zoho Books)",
+      "table_id": "2527115000005641614",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777867361",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "仕入先のクレジットの返金 (Zoho Books)",
+      "table_id": "2527115000005641640",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "仕入先の住所 (Zoho Books)",
+      "table_id": "2527115000005641484",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777865216",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "仕入先の支払いの返金 (Zoho Books)",
+      "table_id": "2527115000006674248",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "仕入先の連絡先 (Zoho Books)",
+      "table_id": "2527115000005643124",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777904289",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "仕入先への支払い (Zoho Books)",
+      "table_id": "2527115000005642780",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "仮払金 (Zoho Books)",
+      "table_id": "2527115000005643032",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "使用教材",
+      "table_id": "2527115000003848231",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1705037588893",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "修了要件",
+      "table_id": "2527115000005177039",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "修了要件 Notes",
+      "table_id": "2527115000005177015",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1711588495784",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "出張 (Zoho Books)",
+      "table_id": "2527115000005588588",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "出張の旅程 (Zoho Books)",
+      "table_id": "2527115000005588746",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "出張オプション (Zoho Books)",
+      "table_id": "2527115000005640864",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777853831",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "出張オプションのグループ (Zoho Books)",
+      "table_id": "2527115000005588722",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "出張オプションの詳細 (Zoho Books)",
+      "table_id": "2527115000005642486",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777888151",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "出欠情報",
+      "table_id": "2527115000003848255",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "出荷依頼表",
+      "table_id": "2527115000001328077",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "出荷依頼表 Notes",
+      "table_id": "2527115000001328063",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1683860531039",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "出荷注文 (Zoho Books)",
+      "table_id": "2527115000005641676",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "勘定 (Zoho Books)",
+      "table_id": "2527115000005588183",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777744032",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "取引先",
+      "table_id": "2527115000001040020",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "受取請求書 (Zoho Books)",
+      "table_id": "2527115000005642102",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "受注書 (Zoho Books)",
+      "table_id": "2527115000005588462",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777749568",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "受注書の商品 (Zoho Books)",
+      "table_id": "2527115000005642372",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "受注書・請求書 (Zoho Books)",
+      "table_id": "2527115000005643268",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777911043",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "受講生",
+      "table_id": "2527115000004681271",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "受講生 Notes",
+      "table_id": "2527115000004681283",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "受講生名",
+      "table_id": "2527115000003848219",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1705037587850",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "商品",
+      "table_id": "2527115000001040016",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "商品 (Zoho Books)",
+      "table_id": "2527115000005640661",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777850143",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "商品グループ (Zoho Books)",
+      "table_id": "2527115000005640605",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "商品リスト",
+      "table_id": "2527115000006871760",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "商品内訳",
+      "table_id": "2527115000001043000",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1678783714625",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "商談",
+      "table_id": "2527115000001040021",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1678783707743",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "商談 Notes",
+      "table_id": "2527115000001978001",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "営業担当者 (Zoho Books)",
+      "table_id": "2527115000005588348",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "在庫調整の商品 (Zoho Books)",
+      "table_id": "2527115000005642766",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777895468",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "売上戻り高 (Zoho Books)",
+      "table_id": "2527115000005642210",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "売上戻り高の商品 (Zoho Books)",
+      "table_id": "2527115000005642238",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777882028",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "天天中文",
+      "table_id": "2527115000011296025",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "天天中文 Notes",
+      "table_id": "2527115000011296085",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "学習ツール",
+      "table_id": "2527115000001043056",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1678783716262",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "学習実績",
+      "table_id": "2527115000005177027",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "学習実績 Notes",
+      "table_id": "2527115000005177003",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1711588494761",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "学習実績（臨時）",
+      "table_id": "2527115000001043014",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "手配",
+      "table_id": "2527115000001042916",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "手配 Notes",
+      "table_id": "2527115000001321001",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1683771252113",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "支払いの払い戻し (Zoho Books)",
+      "table_id": "2527115000005641374",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "支払い済み (Zoho Books)",
+      "table_id": "2527115000005642808",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777897382",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "教材",
+      "table_id": "2527115000004060839",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1705995783860",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "教材 Notes",
+      "table_id": "2527115000004060827",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "教材リスト",
+      "table_id": "2527115000001042930",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1678783712716",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "料金体系 (Zoho Books)",
+      "table_id": "2527115000005642676",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "楽天GHR Beat TOEIC 2024出席",
+      "table_id": "2527115000013357199",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1744154000802",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "楽天GHR面談",
+      "table_id": "2527115000013357990",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "無題-3",
+      "table_id": "2527115000013213913",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "産経オンライン",
+      "table_id": "2527115000015450001",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1750252559593",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "産経オンライン Notes",
+      "table_id": "2527115000015450013",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "申請の払い戻し (Zoho Books)",
+      "table_id": "2527115000005642966",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "申請の種類 (Zoho Books)",
+      "table_id": "2527115000005588568",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777751108",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "発注書の商品 (Zoho Books)",
+      "table_id": "2527115000005642292",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "発生主義の取引 (Zoho Books)",
+      "table_id": "2527115000005640284",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777794028",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "税金 (Zoho Books)",
+      "table_id": "2527115000005640184",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "精算 (Zoho Books)",
+      "table_id": "2527115000005642878",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "経費 (Zoho Books)",
+      "table_id": "2527115000005641262",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777859923",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "経費の税金 (Zoho Books)",
+      "table_id": "2527115000005642042",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "経費の請求 (Zoho Books)",
+      "table_id": "2527115000005641720",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777871909",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "経費の請求の項目 (Zoho Books)",
+      "table_id": "2527115000005641982",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "繰り返し経費 (Zoho Books)",
+      "table_id": "2527115000005642726",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777894538",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "見積書 (Zoho Books)",
+      "table_id": "2527115000005588364",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "見積書の商品 (Zoho Books)",
+      "table_id": "2527115000005641900",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777874235",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "見込み客",
+      "table_id": "2527115000001040018",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "規定 (Zoho Books)",
+      "table_id": "2527115000005588247",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "詳細",
+      "table_id": "2527115000003848291",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1705037593516",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "詳細 Notes",
+      "table_id": "2527115000003848279",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "課金 (Zoho Books)",
+      "table_id": "2527115000005588845",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777759578",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "請求書 (Zoho Books)",
+      "table_id": "2527115000005588936",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "請求書の商品 (Zoho Books)",
+      "table_id": "2527115000005643144",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777905234",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "請求書の支払い (Zoho Books)",
+      "table_id": "2527115000005640154",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "請求済みの見積書 (Zoho Books)",
+      "table_id": "2527115000005641472",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "講師レポート/評価コメント",
+      "table_id": "2527115000007213001",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1720428660903",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "講師レポート/評価コメント Notes",
+      "table_id": "2527115000007213013",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "講師情報",
+      "table_id": "2527115000001043028",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1678783715555",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "貸方票 (Zoho Books)",
+      "table_id": "2527115000005640490",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "貸方票/請求書 (Zoho Books)",
+      "table_id": "2527115000005641414",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "購入受領 (Zoho Books)",
+      "table_id": "2527115000005642846",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777899140",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "赴任前アンケート",
+      "table_id": "2527115000006718115",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "赴任前アンケート Notes",
+      "table_id": "2527115000006718127",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1718165160218",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "超速中国語",
+      "table_id": "2527115000014904050",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "超速中国語 Notes",
+      "table_id": "2527115000014904038",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "連絡先",
+      "table_id": "2527115000001040019",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1678783707743",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "部署 (Zoho Books)",
+      "table_id": "2527115000005642072",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "顧客 (Zoho Books)",
+      "table_id": "2527115000005588050",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777742144",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    },
+    {
+      "table_name": "顧客の住所 (Zoho Books)",
+      "table_id": "2527115000005588129",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "顧客の支払い (Zoho Books)",
+      "table_id": "2527115000005640126",
+      "table_type": "Table",
+      "error": "API Error: 400 - {\"status\":\"failure\",\"summary\":\"EXCEEDING_USR_PLN_API_FREQ_COUNT\",\"data\":{\"errorCode\":6045,\"errorMessage\":\"リクエストを処理できませんでした。特定の期間におけるアカウントからのリクエスト数が、上限を超えました。リクエスト数を調整して、時間をおいてお試しください。\"}}"
+    },
+    {
+      "table_name": "顧客の連絡先 (Zoho Books)",
+      "table_id": "2527115000005640841",
+      "table_type": "Table",
+      "description": "",
+      "created_time": "1713777852979",
+      "modified_time": null,
+      "columns": [],
+      "row_count": 0,
+      "column_count": 0
+    }
+  ]
+}

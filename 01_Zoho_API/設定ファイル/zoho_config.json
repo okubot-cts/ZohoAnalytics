@@ -1,0 +1,6 @@
+{
+  "client_id": "1000.YN0LA88XQRCDTARO3FO5PWCOEY2IFZ",
+  "client_secret": "25549573ace167da7319c6b561a8ea477ca235e0ef",
+  "org_id": "772044231",
+  "redirect_uri": "http://localhost:8080/callback"
+}
