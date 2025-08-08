@@ -1,0 +1,255 @@
+{
+  "workflows": [
+    {
+      "name": "Zoho CRM - Get Current Period Deals",
+      "description": "今期（2025/4/1以降）の商談データを取得するワークフロー",
+      "nodes": [
+        {
+          "name": "Webhook Trigger",
+          "type": "n8n-nodes-base.webhook",
+          "parameters": {
+            "httpMethod": "POST",
+            "path": "zoho-deals",
+            "responseMode": "responseNode"
+          }
+        },
+        {
+          "name": "Zoho CRM",
+          "type": "n8n-nodes-base.zohoCrm",
+          "parameters": {
+            "operation": "getAll",
+            "resource": "deals",
+            "filters": {
+              "from": "={{ $json.date_from }}"
+            },
+            "options": {
+              "includeProducts": true
+            }
+          }
+        },
+        {
+          "name": "Filter Deals",
+          "type": "n8n-nodes-base.filter",
+          "parameters": {
+            "conditions": {
+              "string": [
+                {
+                  "value1": "={{ $json.Close_Date }}",
+                  "operation": "gte",
+                  "value2": "={{ $json.date_from }}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Transform Data",
+          "type": "n8n-nodes-base.set",
+          "parameters": {
+            "values": {
+              "string": [
+                {
+                  "name": "deal_id",
+                  "value": "={{ $json.Id }}"
+                },
+                {
+                  "name": "deal_name",
+                  "value": "={{ $json.Deal_Name }}"
+                },
+                {
+                  "name": "close_date",
+                  "value": "={{ $json.Close_Date }}"
+                },
+                {
+                  "name": "amount",
+                  "value": "={{ $json.Amount }}"
+                },
+                {
+                  "name": "stage",
+                  "value": "={{ $json.Stage }}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Save to File",
+          "type": "n8n-nodes-base.writeBinaryFile",
+          "parameters": {
+            "fileName": "deals_{{ $now.format('YYYYMMDD_HHmmss') }}.json",
+            "data": "={{ JSON.stringify($json) }}"
+          }
+        },
+        {
+          "name": "Webhook Response",
+          "type": "n8n-nodes-base.respondToWebhook",
+          "parameters": {
+            "responseBody": "={{ $json }}",
+            "responseCode": 200
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zoho CRM - Create Deal",
+      "description": "新規商談を作成するワークフロー",
+      "nodes": [
+        {
+          "name": "Webhook Trigger",
+          "type": "n8n-nodes-base.webhook",
+          "parameters": {
+            "httpMethod": "POST",
+            "path": "zoho-create-deal",
+            "responseMode": "responseNode"
+          }
+        },
+        {
+          "name": "Validate Input",
+          "type": "n8n-nodes-base.if",
+          "parameters": {
+            "conditions": {
+              "string": [
+                {
+                  "value1": "={{ $json.deal_name }}",
+                  "operation": "notEmpty"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Zoho CRM Create",
+          "type": "n8n-nodes-base.zohoCrm",
+          "parameters": {
+            "operation": "create",
+            "resource": "deals",
+            "dealName": "={{ $json.deal_name }}",
+            "closingDate": "={{ $json.close_date }}",
+            "amount": "={{ $json.amount }}",
+            "stage": "={{ $json.stage }}"
+          }
+        },
+        {
+          "name": "Success Response",
+          "type": "n8n-nodes-base.respondToWebhook",
+          "parameters": {
+            "responseBody": "={{ { 'success': true, 'deal_id': $json.Id } }}",
+            "responseCode": 200
+          }
+        },
+        {
+          "name": "Error Response",
+          "type": "n8n-nodes-base.respondToWebhook",
+          "parameters": {
+            "responseBody": "={{ { 'success': false, 'error': 'Invalid input data' } }}",
+            "responseCode": 400
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zoho CRM - Get Products",
+      "description": "商品内訳データを取得するワークフロー",
+      "nodes": [
+        {
+          "name": "Webhook Trigger",
+          "type": "n8n-nodes-base.webhook",
+          "parameters": {
+            "httpMethod": "POST",
+            "path": "zoho-products",
+            "responseMode": "responseNode"
+          }
+        },
+        {
+          "name": "Zoho CRM Products",
+          "type": "n8n-nodes-base.zohoCrm",
+          "parameters": {
+            "operation": "getAll",
+            "resource": "products",
+            "filters": {
+              "parentId": "={{ $json.deal_id }}"
+            }
+          }
+        },
+        {
+          "name": "Transform Products",
+          "type": "n8n-nodes-base.set",
+          "parameters": {
+            "values": {
+              "string": [
+                {
+                  "name": "product_id",
+                  "value": "={{ $json.Id }}"
+                },
+                {
+                  "name": "product_name",
+                  "value": "={{ $json.Product_Name }}"
+                },
+                {
+                  "name": "quantity",
+                  "value": "={{ $json.Quantity }}"
+                },
+                {
+                  "name": "unit_price",
+                  "value": "={{ $json.Unit_Price }}"
+                },
+                {
+                  "name": "total",
+                  "value": "={{ $json.Total }}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Webhook Response",
+          "type": "n8n-nodes-base.respondToWebhook",
+          "parameters": {
+            "responseBody": "={{ $json }}",
+            "responseCode": 200
+          }
+        }
+      ]
+    }
+  ],
+  "api_endpoints": [
+    {
+      "name": "Get Current Period Deals",
+      "method": "POST",
+      "url": "/webhook/zoho-deals",
+      "description": "今期の商談データを取得",
+      "request_body": {
+        "date_from": "2025-04-01",
+        "request_type": "get_deals"
+      }
+    },
+    {
+      "name": "Create New Deal",
+      "method": "POST", 
+      "url": "/webhook/zoho-create-deal",
+      "description": "新規商談を作成",
+      "request_body": {
+        "deal_name": "テスト商談",
+        "close_date": "2025-12-31",
+        "amount": 100000,
+        "stage": "提案前A"
+      }
+    },
+    {
+      "name": "Get Products",
+      "method": "POST",
+      "url": "/webhook/zoho-products", 
+      "description": "商品内訳データを取得",
+      "request_body": {
+        "deal_id": "5187347000192553190"
+      }
+    }
+  ],
+  "setup_instructions": [
+    "1. n8nインスタンスにログイン",
+    "2. 各ワークフローをインポート",
+    "3. ZohoCRM認証情報を設定",
+    "4. Webhookエンドポイントを有効化",
+    "5. ワークフローをアクティブ化"
+  ]
+} 

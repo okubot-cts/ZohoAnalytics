@@ -1,0 +1,425 @@
+{
+  "name": "Zoho CRM - Get Current Period Deals",
+  "description": "今期（2025/4/1以降）の商談データを取得するワークフロー",
+  "active": true,
+  "nodes": [
+    {
+      "id": "webhook-trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "zoho-deals",
+        "responseMode": "responseNode",
+        "options": {
+          "responseHeaders": {
+            "parameters": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      },
+      "webhookId": "zoho-deals-webhook"
+    },
+    {
+      "id": "validate-input",
+      "name": "Validate Input",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "date-from-check",
+              "leftValue": "={{ $json.date_from }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      }
+    },
+    {
+      "id": "zoho-crm-get-deals",
+      "name": "Zoho CRM - Get Deals",
+      "type": "n8n-nodes-base.zohoCrm",
+      "typeVersion": 1,
+      "position": [680, 200],
+      "parameters": {
+        "operation": "getAll",
+        "resource": "deals",
+        "filters": {
+          "from": "={{ $json.date_from || '2025-04-01' }}"
+        },
+        "options": {
+          "includeProducts": "={{ $json.include_products || true }}"
+        }
+      },
+      "credentials": {
+        "zohoCrmOAuth2Api": {
+          "id": "zoho-crm-credentials",
+          "name": "Zoho CRM OAuth2"
+        }
+      }
+    },
+    {
+      "id": "filter-current-period",
+      "name": "Filter Current Period",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 1,
+      "position": [900, 200],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "close-date-filter",
+              "leftValue": "={{ $json.Close_Date }}",
+              "rightValue": "={{ $json.date_from || '2025-04-01' }}",
+              "operator": {
+                "type": "date",
+                "operation": "gte"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      }
+    },
+    {
+      "id": "transform-deal-data",
+      "name": "Transform Deal Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [1120, 200],
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "deal_id",
+              "value": "={{ $json.Id }}"
+            },
+            {
+              "name": "deal_name",
+              "value": "={{ $json.Deal_Name }}"
+            },
+            {
+              "name": "close_date",
+              "value": "={{ $json.Close_Date }}"
+            },
+            {
+              "name": "amount",
+              "value": "={{ $json.Amount }}"
+            },
+            {
+              "name": "stage",
+              "value": "={{ $json.Stage }}"
+            },
+            {
+              "name": "account_name",
+              "value": "={{ $json.Account_Name }}"
+            },
+            {
+              "name": "contact_name",
+              "value": "={{ $json.Contact_Name }}"
+            },
+            {
+              "name": "created_time",
+              "value": "={{ $json.Created_Time }}"
+            },
+            {
+              "name": "modified_time",
+              "value": "={{ $json.Modified_Time }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "get-products-for-deal",
+      "name": "Get Products for Deal",
+      "type": "n8n-nodes-base.zohoCrm",
+      "typeVersion": 1,
+      "position": [1340, 200],
+      "parameters": {
+        "operation": "getAll",
+        "resource": "products",
+        "filters": {
+          "parentId": "={{ $json.deal_id }}"
+        }
+      },
+      "credentials": {
+        "zohoCrmOAuth2Api": {
+          "id": "zoho-crm-credentials",
+          "name": "Zoho CRM OAuth2"
+        }
+      }
+    },
+    {
+      "id": "transform-product-data",
+      "name": "Transform Product Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [1560, 200],
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "product_id",
+              "value": "={{ $json.Id }}"
+            },
+            {
+              "name": "product_name",
+              "value": "={{ $json.Product_Name }}"
+            },
+            {
+              "name": "quantity",
+              "value": "={{ $json.Quantity }}"
+            },
+            {
+              "name": "unit_price",
+              "value": "={{ $json.Unit_Price }}"
+            },
+            {
+              "name": "total",
+              "value": "={{ $json.Total }}"
+            },
+            {
+              "name": "deal_id",
+              "value": "={{ $json.Parent_Id }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "combine-deal-products",
+      "name": "Combine Deal & Products",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [1780, 200],
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "deal_info",
+              "value": "={{ $('Transform Deal Data').item.json }}"
+            },
+            {
+              "name": "products",
+              "value": "={{ $('Transform Product Data').all() }}"
+            },
+            {
+              "name": "total_products",
+              "value": "={{ $('Transform Product Data').all().length }}"
+            },
+            {
+              "name": "total_amount",
+              "value": "={{ $('Transform Product Data').all().reduce((sum, item) => sum + (item.json.total || 0), 0) }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "save-to-file",
+      "name": "Save to File",
+      "type": "n8n-nodes-base.writeBinaryFile",
+      "typeVersion": 1,
+      "position": [2000, 200],
+      "parameters": {
+        "fileName": "deals_{{ $now.format('YYYYMMDD_HHmmss') }}.json",
+        "data": "={{ JSON.stringify($json, null, 2) }}",
+        "options": {}
+      }
+    },
+    {
+      "id": "success-response",
+      "name": "Success Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [2220, 200],
+      "parameters": {
+        "responseBody": "={{ { 'success': true, 'data': $json, 'timestamp': $now.toISOString() } }}",
+        "responseCode": 200,
+        "options": {
+          "responseHeaders": {
+            "parameters": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "error-response",
+      "name": "Error Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [680, 400],
+      "parameters": {
+        "responseBody": "={{ { 'success': false, 'error': 'Invalid input data', 'timestamp': $now.toISOString() } }}",
+        "responseCode": 400,
+        "options": {
+          "responseHeaders": {
+            "parameters": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Validate Input",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate Input": {
+      "main": [
+        [
+          {
+            "node": "Zoho CRM - Get Deals",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Error Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Zoho CRM - Get Deals": {
+      "main": [
+        [
+          {
+            "node": "Filter Current Period",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Current Period": {
+      "main": [
+        [
+          {
+            "node": "Transform Deal Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transform Deal Data": {
+      "main": [
+        [
+          {
+            "node": "Get Products for Deal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Products for Deal": {
+      "main": [
+        [
+          {
+            "node": "Transform Product Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transform Product Data": {
+      "main": [
+        [
+          {
+            "node": "Combine Deal & Products",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Combine Deal & Products": {
+      "main": [
+        [
+          {
+            "node": "Save to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save to File": {
+      "main": [
+        [
+          {
+            "node": "Success Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    {
+      "createdAt": "2025-01-27T10:00:00.000Z",
+      "updatedAt": "2025-01-27T10:00:00.000Z",
+      "id": "zoho-crm",
+      "name": "Zoho CRM"
+    }
+  ],
+  "triggerCount": 1,
+  "updatedAt": "2025-01-27T10:00:00.000Z",
+  "versionId": "1"
+} 

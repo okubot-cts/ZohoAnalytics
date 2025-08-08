@@ -1,0 +1,56 @@
+{
+  "zoho_crm_auth": {
+    "client_id": "1000.XXXXXXXXXX.XXXXXXXXXX",
+    "client_secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "redirect_uri": "https://www.zohoapis.com/oauth/v2/auth",
+    "scope": "ZohoCRM.modules.ALL,ZohoCRM.settings.ALL",
+    "api_domain": "https://www.zohoapis.com",
+    "auth_url": "https://accounts.zoho.com/oauth/v2/auth",
+    "token_url": "https://accounts.zoho.com/oauth/v2/token"
+  },
+  "n8n_config": {
+    "base_url": "http://localhost:5678",
+    "api_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MDdhZjlkZC0xOTZmLTQ3NTMtOGUzMS1iOTVjMjE0ZDllZDAiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzU0Njg4NTIxLCJleHAiOjE3NTcyNTcyMDB9.KmgJp75KaTcrXmnxCb1bNnRmHG3Jex7dgDjLPpRk0EQ",
+    "webhook_base_url": "http://localhost:5678/webhook"
+  },
+  "workflows": {
+    "get_deals": {
+      "name": "Zoho CRM - Get Current Period Deals",
+      "description": "今期（2025/4/1以降）の商談データを取得",
+      "webhook_path": "zoho-deals",
+      "filters": {
+        "date_from": "2025-04-01",
+        "include_products": true
+      }
+    },
+    "get_products": {
+      "name": "Zoho CRM - Get Products",
+      "description": "商品内訳データを取得",
+      "webhook_path": "zoho-products"
+    },
+    "create_deal": {
+      "name": "Zoho CRM - Create Deal",
+      "description": "新規商談を作成",
+      "webhook_path": "zoho-create-deal"
+    }
+  },
+  "data_mapping": {
+    "deals": {
+      "deal_id": "Id",
+      "deal_name": "Deal_Name",
+      "close_date": "Close_Date",
+      "amount": "Amount",
+      "stage": "Stage",
+      "account_name": "Account_Name",
+      "contact_name": "Contact_Name"
+    },
+    "products": {
+      "product_id": "Id",
+      "product_name": "Product_Name",
+      "quantity": "Quantity",
+      "unit_price": "Unit_Price",
+      "total": "Total",
+      "deal_id": "Parent_Id"
+    }
+  }
+} 
