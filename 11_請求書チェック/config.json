@@ -1,0 +1,33 @@
+{
+  "project_name": "請求書チェックプロジェクト",
+  "description": "Zoho CRMとZoho Booksを連携して請求書の整合性をチェックするプロジェクト",
+  "zoho_config": {
+    "client_id": "1000.YN0LA88XQRCDTARO3FO5PWCOEY2IFZ",
+    "client_secret": "25549573ace167da7319c6b561a8ea477ca235e0ef",
+    "org_id": "772044231",
+    "redirect_uri": "http://localhost:8080/callback"
+  },
+  "api_scopes": {
+    "crm": "ZohoCRM.modules.ALL,ZohoCRM.settings.modules.READ,ZohoCRM.settings.fields.READ",
+    "books": "ZohoBooks.fullaccess.all",
+    "combined": "ZohoCRM.modules.ALL,ZohoCRM.settings.modules.READ,ZohoCRM.settings.fields.READ,ZohoBooks.fullaccess.all"
+  },
+  "target_modules": {
+    "crm": ["Deals", "Contacts", "Accounts", "Invoices"],
+    "books": ["invoices", "contacts", "organizations"]
+  },
+  "invoice_check_settings": {
+    "date_range_days": 30,
+    "status_filters": {
+      "crm": ["Closed Won", "Closed Lost"],
+      "books": ["sent", "paid", "overdue"]
+    },
+    "amount_threshold": 10000
+  },
+  "output_settings": {
+    "csv_encoding": "utf-8-sig",
+    "excel_format": "xlsx",
+    "json_indent": 2
+  }
+}
+

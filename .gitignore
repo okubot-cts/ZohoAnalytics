@@ -41,3 +41,28 @@ ENV/
 # OS関連
 .DS_Store
 Thumbs.db 
+# 認証・トークンファイル
+**/zoho_tokens.json
+**/zoho_crm_tokens.json
+**/zoho_books_tokens.json
+**/zoho_tokens_*.json
+*.backup
+*/token_manager.log
+**/logs/*.log
+
+# 設定ファイル（認証情報含む）
+**/zoho_config.json
+**/zoho_crm_auth_config.json
+
+# データファイル
+**/*.csv
+**/*.xlsx
+**/*.xls
+**/データ/*.json
+
+# 一時ファイル
+**/__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+

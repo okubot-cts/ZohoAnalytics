@@ -1,0 +1,14 @@
+{
+  "name": "n8n-mcp-custom",
+  "version": "1.0.0",
+  "description": "Custom N8N MCP Server for Claude Desktop",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "bin": {
+    "n8n-mcp-custom": "./index.js"
+  }
+}

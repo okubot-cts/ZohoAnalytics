@@ -1,0 +1,14 @@
+{
+  "name": "zoho-crm-mcp",
+  "version": "1.0.0",
+  "description": "Zoho CRM MCP Server for Claude Desktop",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "bin": {
+    "zoho-crm-mcp": "./index.js"
+  }
+}

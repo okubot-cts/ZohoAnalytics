@@ -1,0 +1,512 @@
+{
+  "createdAt": "2025-02-04T06:30:16.410Z",
+  "updatedAt": "2025-05-30T05:05:46.470Z",
+  "id": "1oSxzhAJg6ptOW62",
+  "name": "Gemini講師コメント→Zoho講師コメント",
+  "active": true,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "033bda30-e58e-4539-a10b-721eebc5765f",
+        "authentication": "headerAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "a2e07687-353c-487c-ae77-1405015fa2c7",
+      "name": "Webhook",
+      "webhookId": "033bda30-e58e-4539-a10b-721eebc5765f",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "imsCSAjpVqvghqnZ",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## 講師コメントをGPTで添削 \n### Zapを移管: [Zap URL](https://zapier.com/editor/226836816/published)",
+        "height": 100,
+        "width": 320,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        280,
+        -140
+      ],
+      "id": "80dd6985-cf6a-42f9-8f2c-53eaba90bba5",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "### 機能概要\n- teacher_commentにデータが入ってきたら\n- n8nのこのワークフローがトリガーされ\n- LLMで清書\n- Supabaseに戻す\n- Zohoに登録する",
+        "height": 380,
+        "width": 1300,
+        "color": 7
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        28,
+        -220
+      ],
+      "id": "165b36e1-da37-408a-8d5f-842d8e0c0a7a",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "あなたは英語講師トレーナーで、受講生に対する評価コメントを読みチェック・添削する役割を担っています。\n\n講師から来た受講生の評価コメントに対して以下の要件でチェックしてください\n\n◇外形面\n・そもそものてにをはが合っているか\n・企業名や受講生を間違えていないか\n・短すぎないか\n◇内容面\n・受講生に対してキツイ表現ではないか\n・中身の筋が通っているか\n・複数の場合、同じorよく似たコメントになっていないか\n・First name使っていないか（英語の場合）\n・○○さん、ではなく○○様になってるか（日本語の場合）\n・ビックリマークを乱用していないか\n・スペルはあってるけれど、明らかにタイプミスがないか\n・評価点、課題点、アドバイスが具体性があるか\n・アドバイスがありきたりすぎないか、プロとしての観点が含まれてるか\n・できるようになったことが含まれているか\n・謙譲語（へりくだりすぎ）を使ってないか（例：毎回しっかり宿題をして下さり有難うございました）\n・カジュアルすぎないか（例：頑張ってくださいね）\n・リピータの場合は前期と同じコメントでないか\n\nこれを踏まえ、修正案を作成してください\nただし、修正案本文以外の文言は絶対に入れないでください。\n\nまた、記述の形式については以下の\n・マークダウンは使用しない（*、#など）\n・文章の内容そのものは変更しない",
+              "role": "system"
+            },
+            {
+              "content": "={{ $json.body.comment }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        220,
+        0
+      ],
+      "id": "8b7b1a12-0351-4a78-b436-b4dc334cf4c7",
+      "name": "OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "wihlAusnx6J01iqB",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "tableId": "teacher_comment",
+        "matchType": "allFilters",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "id",
+              "condition": "eq",
+              "keyValue": "={{ $('Webhook').item.json.body.id }}"
+            }
+          ]
+        },
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "ai_edited_comment",
+              "fieldValue": "={{ $json.message.content }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        596,
+        0
+      ],
+      "id": "5de2db46-5e47-45cd-9710-1e518e6b101e",
+      "name": "Supabase",
+      "credentials": {
+        "supabaseApi": {
+          "id": "q3Pqrt6aSxwYqYfy",
+          "name": "gosapo prod"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://www.zohoapis.com/crm/v2/CustomModule77/search?",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "zohoOAuth2Api",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "criteria",
+              "value": "(Name:equals:15513_Nippon Steel Welding_評価コメント)"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        0,
+        260
+      ],
+      "id": "4604a1b1-5edf-4a72-a6fb-6405d56fd326",
+      "name": "講師コメント取得",
+      "credentials": {
+        "zohoOAuth2Api": {
+          "id": "1pqBixOsaWZ0tiLn",
+          "name": "ZohoCTS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://www.zohoapis.com/crm/v2/CustomModule3/search?",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "zohoOAuth2Api",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "criteria",
+              "value": "=(Email:equals:{{ $('Webhook').item.json.body.coach_email }})"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        816,
+        0
+      ],
+      "id": "afc4283b-d83f-4b0d-976f-5858843228dd",
+      "name": "講師取得",
+      "credentials": {
+        "zohoOAuth2Api": {
+          "id": "1pqBixOsaWZ0tiLn",
+          "name": "ZohoCTS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## 講師コメントをZohoに追加 \n### クラスのフィールド情報: [Zoho URL](https://crm.zoho.com/crm/org772043921/settings/api/modules/CustomModule38?step=FieldsList)\n### 講師コメントのフィールド情報: [Zoho URL](https://crm.zoho.com/crm/org772043921/settings/api/modules/CustomModule77?step=FieldsList)",
+        "height": 340,
+        "width": 520,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        826,
+        -180
+      ],
+      "id": "ae384746-08d8-4558-b880-1ddef026be43",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "url": "https://www.zohoapis.com/crm/v2/Classes/search?",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "zohoOAuth2Api",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "criteria",
+              "value": "=(Name:equals:{{ $('Webhook').item.json.body.class_code }})"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1036,
+        0
+      ],
+      "id": "6733fa86-ff16-48ad-8be2-c3d5bde82863",
+      "name": "クラス取得",
+      "credentials": {
+        "zohoOAuth2Api": {
+          "id": "1pqBixOsaWZ0tiLn",
+          "name": "ZohoCTS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://www.zohoapis.com/crm/v2/CustomModule77",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "zohoOAuth2Api",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"data\": [\n    {\n      \"Name\": \"{{$('Webhook').item.json.body.class_code}}_{{ $json.data[0].Class_Name }}_評価コメント\",\n      \"Type\": \"評価コメント\",\n      \"Class\": \"{{ $json.data[0].id }}\",\n      \"field1\": \"{{ $json.data[0].Class_Name }}\",\n      \"field2\": \"{{ $('Supabase').item.json.student_name }}\",\n      \"field3\": {{ JSON.stringify($('Supabase').item.json.comment) }},\n      \"field4\": {{ JSON.stringify($('OpenAI').item.json.message.content) }},\n      \"Submission_date\": \"{{ $('Supabase').item.json.sent_date }}\",\n      \"Submitted_by\": \"{{ $('講師取得').item.json.data[0].id }}\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1256,
+        0
+      ],
+      "id": "f8b9df66-8c29-4929-bb84-9aa33919452c",
+      "name": "講師コメント書き込み",
+      "notesInFlow": true,
+      "credentials": {
+        "zohoOAuth2Api": {
+          "id": "1pqBixOsaWZ0tiLn",
+          "name": "ZohoCTS"
+        }
+      },
+      "notes": "講師レポート/評価コメント名（Name）→　「{class_code}_{class_name}_評価コメント」\n種別（Type）→　「評価コメント」\n提出日（Submission_date） ⇔　sent_date\n提出者（Submitted_by）→　coach_idのメールアドレスで取得したZoho講師情報のZohoID\nクラス（Class）→　class_idで取得したZohoクラスのZohoID\nクラス名（field1） ⇔　class_name\nコメント内容（field3） ⇔　comment\n受講生名（field2） ⇔　student_name\n校閲済みコメント（field4） ⇔　ai_edited_comment"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://www.zohoapis.com/crm/v2/CustomModule77",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "zohoOAuth2Api",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"data\": [\n    {\n      \"Name\": \"テスト\",\n      \"field4\": \"校閲済みコメントの入力をテストしています。\",\n      \"Submitted_by\": \"5187347000068223130\"\n    }\n  ]\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        0,
+        520
+      ],
+      "id": "146f3d6a-8092-4b69-941d-584f35112212",
+      "name": "講師コメント書き込み1",
+      "notesInFlow": true,
+      "credentials": {
+        "zohoOAuth2Api": {
+          "id": "1pqBixOsaWZ0tiLn",
+          "name": "ZohoCTS"
+        }
+      },
+      "notes": "講師レポート/評価コメント名（Name）→　「{class_code}_{class_name}_評価コメント」\n種別（Type）→　「評価コメント」\n提出日（Submission_date） ⇔　sent_date\n提出者（Submitted_by）→　coach_idのメールアドレスで取得したZoho講師情報のZohoID\nクラス（Class）→　class_idで取得したZohoクラスのZohoID\nクラス名（field1） ⇔　class_name\nコメント内容（field3） ⇔　comment\n受講生名（field2） ⇔　student_name\n校閲済みコメント（field4） ⇔　ai_edited_comment"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        1120,
+        -440
+      ],
+      "id": "41c84e9f-1c98-49e0-a5ad-d481c921b190",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C08PLUF41L1",
+          "mode": "id"
+        },
+        "text": "=<!subteam^S051JVA9ENR>\n{{ $json.execution.error.message }}\n{{ $json.execution.url }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        1340,
+        -440
+      ],
+      "id": "b66f7900-2817-4aca-a34c-d48e5c7f8bf3",
+      "name": "Slack",
+      "webhookId": "ca449664-074a-4cee-b90b-d4c4bce41f54",
+      "credentials": {
+        "slackApi": {
+          "id": "Y3tSoj1VUONBDcdV",
+          "name": "Slack n8n Error channel"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "OpenAI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI": {
+      "main": [
+        [
+          {
+            "node": "Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Supabase": {
+      "main": [
+        [
+          {
+            "node": "講師取得",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "講師取得": {
+      "main": [
+        [
+          {
+            "node": "クラス取得",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "クラス取得": {
+      "main": [
+        [
+          {
+            "node": "講師コメント書き込み",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {
+    "Webhook": [
+      {
+        "json": {
+          "headers": {
+            "host": "cts-automation.onrender.com",
+            "user-agent": "PostgreSQL 15.6 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit",
+            "content-length": "1455",
+            "accept": "*/*",
+            "accept-encoding": "gzip, br",
+            "authorization": "Bearer UqwLuw8WJ9UMaTtwZPK2obNKv0N6cgnb",
+            "cdn-loop": "cloudflare; loops=1",
+            "cf-connecting-ip": "35.73.77.252",
+            "cf-ipcountry": "JP",
+            "cf-ray": "947b969faa17e035-PDX",
+            "cf-visitor": "{\"scheme\":\"https\"}",
+            "charsets": "utf-8",
+            "content-type": "application/json",
+            "render-proxy-ttl": "4",
+            "rndr-id": "a68576a7-b507-4574",
+            "true-client-ip": "35.73.77.252",
+            "x-forwarded-for": "35.73.77.252, 172.68.175.59",
+            "x-forwarded-proto": "https",
+            "x-request-start": "1748580392992503"
+          },
+          "params": {},
+          "query": {},
+          "body": {
+            "id": 180,
+            "comment": "+ You made a very good effort in the classes, always participating in activities as well as actively contributing and doing your best to improve your English. Your positive attitude, even when activities were challenging was particularly commendable. Keeping up this attitude is the key to continued and further progress on the path to language learning and development. \n\n-\tI think that the main areas of focus for Mr. Ito going forward are to increase vocabulary as well as learn and practice pronunciation for new vocabulary words. Building a stronger vocabulary foundation will help with both comprehension and personal expression, especially in business contexts. In addition, improving pronunciation will lead to more confidence and clearer communication during conversations.\n\n-\tAdvice:  I would advise for Mr. Ito to do shadowing practices in English.  He could use the audio for the included \"BBC\" as well as \"Listen & Talk\" textbooks, and try mimicking the statements of the speakers in order to grow more comfortable and accustomed to English. Repeating the sentences out loud while matching the speaker’s rhythm and intonation can help reinforce correct pronunciation patterns and natural speech flow. Doing this regularly, even for just a few minutes a day, will also aid in listening skills and improve Mr. Ito’s overall fluency.\n",
+            "class_code": "14215",
+            "coach_email": "NItaCoachTest@test.co.jp"
+          },
+          "webhookUrl": "https://cts-automation.onrender.com/webhook-test/033bda30-e58e-4539-a10b-721eebc5765f",
+          "executionMode": "test"
+        }
+      }
+    ]
+  },
+  "versionId": "96c4e4fe-f593-4e98-9052-655eb598b11e",
+  "triggerCount": 1,
+  "shared": [
+    {
+      "createdAt": "2025-02-04T06:30:16.410Z",
+      "updatedAt": "2025-02-04T06:30:16.410Z",
+      "role": "workflow:owner",
+      "workflowId": "1oSxzhAJg6ptOW62",
+      "projectId": "2CCPy5ME29XbvOMY",
+      "project": {
+        "createdAt": "2025-01-19T12:41:35.485Z",
+        "updatedAt": "2025-01-21T01:19:42.029Z",
+        "id": "2CCPy5ME29XbvOMY",
+        "name": "CTS Admin <it_system@cts-n.net>",
+        "type": "personal",
+        "icon": null,
+        "projectRelations": [
+          {
+            "createdAt": "2025-01-19T12:41:35.485Z",
+            "updatedAt": "2025-01-19T12:41:35.485Z",
+            "role": "project:personalOwner",
+            "userId": "707af9dd-196f-4753-8e31-b95c214d9ed0",
+            "projectId": "2CCPy5ME29XbvOMY",
+            "user": {
+              "createdAt": "2025-01-19T12:41:33.151Z",
+              "updatedAt": "2025-02-09T10:10:23.067Z",
+              "id": "707af9dd-196f-4753-8e31-b95c214d9ed0",
+              "email": "it_system@cts-n.net",
+              "firstName": "CTS",
+              "lastName": "Admin",
+              "personalizationAnswers": {
+                "version": "v4",
+                "personalization_survey_submitted_at": "2025-01-19T13:00:25.882Z",
+                "personalization_survey_n8n_version": "1.74.3"
+              },
+              "settings": {
+                "userActivated": true,
+                "easyAIWorkflowOnboarded": true,
+                "firstSuccessfulWorkflowId": "XvGHnjIhQ9MsxtPx",
+                "userActivatedAt": 1738637802363,
+                "npsSurvey": {
+                  "responded": true,
+                  "lastShownAt": 1739095807666
+                }
+              },
+              "role": "global:owner",
+              "disabled": false,
+              "mfaEnabled": false,
+              "isPending": false,
+              "isOwner": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "tags": []
+}
